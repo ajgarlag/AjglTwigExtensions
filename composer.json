@@ -1,0 +1,33 @@
+{
+    "name": "ajgl/twig-extensions",
+    "description": "Some Twig extensions",
+    "keywords": ["twig"],
+    "homepage": "https://github.com/ajgl/AjglTwigExtensions",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Antonio J. García Lagar",
+        "email": "aj@garcialagar.es",
+        "homepage": "http://aj.garcialagar.es",
+        "role": "developer"
+      }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ajgl_Twig_Extension_": ""
+        }
+    },
+    "require": {
+        "php": ">=5.2.4",
+        "twig/twig": "1.*"
+    },
+    "suggest": {
+        "ext-xdebug": "For the breakpoint extension"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
