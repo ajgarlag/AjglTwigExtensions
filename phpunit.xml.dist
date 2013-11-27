@@ -2,7 +2,7 @@
 <phpunit bootstrap="./vendor/autoload.php" colors="true">
 
     <testsuite name="Ajgl_Twig_Extension Test Suite">
-        <directory>./Tests</directory>
+        <directory>./Ajgl/Twig/Extension/Tests</directory>
     </testsuite>
 
 
