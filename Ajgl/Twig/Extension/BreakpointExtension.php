@@ -28,7 +28,7 @@ class Ajgl_Twig_Extension_BreakpointExtension extends \Twig_Extension
     /**
      * If XDebug is detected, makes the debugger break
      */
-    public function setBreakpoing()
+    public function setBreakpoint()
     {
         if (function_exists('xdebug_break')) {
             xdebug_break();
