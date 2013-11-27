@@ -11,7 +11,7 @@
 /**
  * @author Antonio J. García Lagar <aj@garcialagar.es>
  */
-class Ajgl_Twig_Extension_BreakpointExtension extends \Twig_Extension
+class Ajgl_Twig_Extension_BreakpointExtension extends Twig_Extension
 {
     public function getName()
     {
@@ -21,7 +21,7 @@ class Ajgl_Twig_Extension_BreakpointExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            new \Twig_SimpleFunction('breakpoint', array($this, 'setBreakpoint'))
+            new Twig_SimpleFunction('breakpoint', array($this, 'setBreakpoint'))
         );
     }
 
