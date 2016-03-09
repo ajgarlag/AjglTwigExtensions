@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Add PHP 5.6 support
 - Add PHP 7.0 support
 - Add CHANGELOG.md file
+- Add twig 2.0 support
 
 ### Changed
 - Require twig >= 1.14
