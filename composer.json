@@ -18,20 +18,18 @@
         }
     },
     "require": {
-        "php": ">=5.2.4",
-        "twig/twig": "1.*"
+        "php": ">=5.4.0",
+        "twig/twig": "^1.14"
     },
     "suggest": {
         "ext-xdebug": "For the breakpoint extension"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "~3.7"
+        "phpunit/phpunit": "^4.0"
     }
 }
