@@ -1,8 +1,9 @@
 <?php
-/**
- * This file is part of the AJ General Libraries
+
+/*
+ * AJGL Twig Extensions Component Library
  *
- * Copyright (C) 2010-2013 Antonio J. García Lagar <aj@garcialagar.es>
+ * Copyright (C) Antonio J. García Lagar <aj@garcialagar.es>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -23,12 +24,12 @@ class BreakpointExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            new \Twig_SimpleFunction('breakpoint', array($this, 'setBreakpoint'))
+            new \Twig_SimpleFunction('breakpoint', array($this, 'setBreakpoint')),
         );
     }
 
     /**
-     * If XDebug is detected, makes the debugger break
+     * If XDebug is detected, makes the debugger break.
      */
     public function setBreakpoint()
     {
