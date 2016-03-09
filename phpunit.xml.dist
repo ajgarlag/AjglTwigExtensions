@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="./vendor/autoload.php" colors="true">
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.0/phpunit.xsd"
+    backupGlobals="false"
+    colors="true"
+    bootstrap="vendor/autoload.php"
+>
 
-    <testsuite name="Ajgl_Twig_Extension Test Suite">
-        <directory>./Ajgl/Twig/Extension/Tests</directory>
-    </testsuite>
-
+    <testsuites>
+        <testsuite name="AjglTwigExtension Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./</directory>
-            <exclude>
-                <directory>./Tests</directory>
-                <directory>./vendor</directory>
-            </exclude>
+            <directory>./src</directory>
         </whitelist>
     </filter>
 

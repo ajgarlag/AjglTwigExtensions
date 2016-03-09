@@ -13,13 +13,17 @@
       }
     ],
     "autoload": {
-        "psr-0": {
-            "Ajgl_Twig_Extension_": ""
-        }
+        "psr-4": { "Ajgl\\Twig\\Extension\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ajgl\\Twig\\Extension\\Tests\\": "tests/" }
     },
     "require": {
         "php": ">=5.4.0",
         "twig/twig": "^1.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
     },
     "suggest": {
         "ext-xdebug": "For the breakpoint extension"
@@ -28,8 +32,5 @@
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.0"
     }
 }

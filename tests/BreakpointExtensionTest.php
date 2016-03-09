@@ -8,10 +8,14 @@
  * file that was distributed with this source code.
  */
 
+namespace Ajgl\Twig\Extension\Tests;
+
+use Ajgl\Twig\Extension\BreakpointExtension;
+
 /**
  * @author Antonio J. García Lagar <aj@garcialagar.es>
  */
-class Ajgl_Twig_Extension_Tests_BreakpointExtensionTest extends PHPUnit_Framework_TestCase
+class BreakpointExtensionTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var Ajgl_Twig_Extension_BreakpointExtension
@@ -20,7 +24,7 @@ class Ajgl_Twig_Extension_Tests_BreakpointExtensionTest extends PHPUnit_Framewor
 
     protected function setUp()
     {
-        $this->extension = new Ajgl_Twig_Extension_BreakpointExtension();
+        $this->extension = new BreakpointExtension();
     }
 
     public function testGetName()

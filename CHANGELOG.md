@@ -11,6 +11,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Require twig >= 1.14
+- Migration to namespaces
+- Migration to PSR4
 
 ### Removed
 - Remove PHP 5.3 support
